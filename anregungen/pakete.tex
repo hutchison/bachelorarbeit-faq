@@ -1,0 +1,316 @@
+% _das_ Mathepaket schlechthin:
+\usepackage[
+  %% Nummerierung von Gleichungen links:
+  leqno,
+  %% Ausgabe von Gleichungen linksbündig:
+  fleqn,
+]{mathtools}
+% und dazu noch ein paar Mathesymbole und so:
+% (muss vor mathspec geladen werden)
+\usepackage{amsmath, amssymb}
+
+% chemische Formeln
+% (muss auch vor mathspec geladen werden)
+%\usepackage[version=4]{mhchem}
+
+\usepackage{microtype}
+
+\usepackage{ifxetex}
+
+\ifxetex{}
+  % Um auch schöne Schriftarten auswählen zu können:
+  \usepackage[MnSymbol]{mathspec}
+
+  % Wir wollen, dass alle unsere Schriften für TeX und einander angepasst sind:
+  \defaultfontfeatures{
+    Ligatures=TeX,
+    Scale=MatchLowercase,
+  }
+  % Die Hauptschriftart:
+  \setmainfont[]{Minion Pro}
+  % Die Matheschriftart:
+  \setmathfont(Digits,Latin,Greek)[
+    Numbers={Lining, Proportional}
+  ]{Minion Pro}
+  \setmathrm{Minion Pro}
+  % Die Schriftart für serifenlose Texte (z.B. Überschriften):
+  %\setallsansfonts[
+  %  BoldFont = {MyriadPro-Regular},
+  %]{Myriad Pro}
+  \setallsansfonts[
+    BoldFont = {Gill Sans},
+  ]{Gill Sans}
+  % Und die Schriftart für nichtproportionale Texte:
+  \setallmonofonts[]{Fira Mono}
+  \newfontface\titlepagefont{Gill Sans}
+\else
+  \usepackage[utf8]{inputenc}
+\fi
+
+% Deutsche Sprache bei Silbentrennung und Datum:
+\usepackage[ngerman]{babel}
+
+% Besser als "Lorem Ipsum"
+\usepackage{blindtext}
+
+% St. Mary Road, liefert Symbole für theoretische Informatik (z.B. \lightning):
+%\usepackage{stmaryrd}
+
+% nutze die volle Seite als Satzspiegel:
+\usepackage[
+  % Randbreite sei 1cm (sonst ist sie 1in):
+  %cm,
+  % Kopf- und Fußzeile werden miteinbezogen:
+  %headings
+]{fullpage}
+
+% verbesserte Tabellen
+% bietet u.a. die Spaltenmöglichkeit 'm{width}' = zentrierte Spalte mit fester
+% Breite
+\usepackage{array}
+
+% kann komplexe Linien in Tabellen ziehen:
+%\usepackage{hhline}
+
+% mehrseitige Tabellen:
+%\usepackage{longtable}
+
+% Tabellen mit gedehnten Spalten:
+%\usepackage{tabularx}
+
+% Pimpt enumerate auf (optionales Argument liefert Nummerierung):
+\usepackage{enumerate}
+
+% Kann descriptions auf die selbe Höhe bringen:
+%\usepackage{enumitem}
+
+% Liefert Hyperlinks (\hyperref, \url, \href}
+\usepackage{hyperref}
+\hypersetup{%
+  colorlinks=false,
+  linkcolor=black,
+  urlcolor=blue,
+}
+
+%\usepackage{cleveref}
+% Farben (wie bei TikZ):
+\usepackage[dvipsnames]{xcolor}
+\definecolor{mygray}{gray}{0.8}
+
+% Ändert den Zeilenabstand:
+%\usepackage[
+%  % nur eine Möglichkeit auswählen:
+%  singlespacing
+%  %onehalfspacing
+%  %doublespacing
+%]{setspace}
+
+% Schönere Tabellen
+% dazu gibt's neue Kommandos:
+% - \toprule[(Dicke)], \midrule[(Dicke)], \bottomrule[(Dicke)]
+% - \addlinespace: Extrahöhe zwischen Zeilen
+\usepackage{booktabs}
+
+% TODOs:
+% Hinzufügen mit \todo{Text} oder auch \todo[inline]{Text}
+\usepackage[
+  ngerman,
+  textwidth=2cm,
+  textsize=tiny,
+  backgroundcolor=white,
+  linecolor=black,
+]{todonotes}
+
+% Schöne numerische Zitierungen:
+%\usepackage[square, numbers]{natbib}
+
+% Verbessert den Satz von Abbildungsüberschriften:
+\usepackage{caption}
+
+% Ermöglicht durch \begin{linenumbers} Zeilennummern anzuzeigen:
+%\usepackage{lineno}
+
+% Ermöglicht Zugriff auf die letzte Seite (z.B. \pageref{LastPage}):
+%\usepackage{lastpage}
+
+% Quelltext schön setzen:
+%\usepackage{listings}
+
+% Logische Beweise:
+%\usepackage{bussproofs}
+
+% Unterstreichungen (\uline, \uuline, \sout: durchgestrichen, \uwave):
+%\usepackage{ulem}
+
+% Kann alle möglichen Maße ändern
+% will man Querformat, dann:
+%\usepackage[landscape]{geometry}
+
+% bietet gestrichelte vert. Linien in Tabellen (':')
+%\usepackage{arydshln}
+
+% Quelltext schön setzen:
+% (verlangt "xelatex -shell-escape"!)
+%\usepackage{minted}
+
+% Algorithmen und Pseudocode:
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\floatname{algorithm}{Algorithmus}
+\renewcommand{\algorithmicrequire}{\textbf{Eingabe:}}
+\renewcommand{\algorithmicensure}{\textbf{Ausgabe:}}
+
+% Bilder einbinden:
+\usepackage{graphicx}
+
+% um in Tabellen eine Zelle über mehrere Zeilen laufen zu lassen:
+%\usepackage{multirow}
+
+% Verbessert fließende Objekte
+%
+%     \begin{figure}[H]
+%     ...
+%     \end{figure}
+% wird’s auch wirklich _hier_ gesetzt
+%\usepackage{float}
+
+% SI-Einheiten mittels \si{}:
+%\usepackage[mode=text]{siunitx}
+%\sisetup{%
+%  output-decimal-marker={,},
+%  per-mode=fraction,
+%  exponent-product=\cdot,
+%}
+%\DeclareSIUnit\cal{cal}
+%\DeclareSIUnit\diopter{dpt}
+%\DeclareSIUnit\fahrenheit{F}
+%\DeclareSIUnit\molar{\textsc{m}}
+%\DeclareSIUnit\pH{pH}
+%\DeclareSIUnit\gewprozent{Gew\%}
+%\DeclareSIUnit\poise{P}
+
+% nette Brüche mittels \sfrac{}{}:
+%\usepackage{xfrac}
+
+% Coole Zeichnungen:
+%\usepackage{tikz}
+%\usetikzlibrary{%
+%  backgrounds,
+%  %mindmap,
+%  %shapes.geometric,
+%  %shapes.symbols,
+%  %shapes.misc,
+%  %shapes.multipart,
+%  %positioning,
+%  %fit,
+%  calc,
+%  arrows,
+%  %automata,
+%  %trees,
+%  %decorations.pathreplacing,
+%  %circuits.ee.IEC,
+%  intersections,
+%  through,
+%}
+%\usepackage{pgfplots}
+%\pgfplotsset{compat=1.16}
+
+% eigens gebaute Lochmarken:
+%\usepackage{eso-pic}
+%\AddToShipoutPicture*{
+  %\put(\LenToUnit{0mm},\LenToUnit{228.5mm})
+    %{\rule{\LenToUnit{20pt}}{\LenToUnit{0.5pt}}}
+  %\put(\LenToUnit{0mm},\LenToUnit{68.5mm})
+    %{\rule{\LenToUnit{20pt}}{\LenToUnit{0.5pt}}}
+%}
+
+%\usepackage{titlesec}
+%\titleformat*{\paragraph}{\itshape\mdseries} % chktex 6
+% \titleformat{\section}
+%   {\sffamily}{\thesection}{1em}{}
+
+% ein Eintrag in einer description-Liste wird in ganz normaler Schrift angezeigt (kein
+% sans-serif, kein fett):
+\renewcommand{\descriptionlabel}[1]{\hspace{\labelsep}#1}
+
+% Verbessert den Umgang mit Abstracts:
+\usepackage{abstract}
+\addto\captionsngerman{\renewcommand{\abstractname}{Abstract}}
+
+% für schlaue Zitate:
+\usepackage{epigraph}
+\setlength{\epigraphwidth}{0.42\textwidth}
+
+% Definitionen und Sätze:
+\usepackage{amsthm}
+% Definitionen, Probleme werden alle mit einem Zeilenumbruch gesetzt, z.B.:
+%   Definition 1 (Graph)
+%   Ein Graph G = (V, E) ist …
+\newtheoremstyle{bonny}% schottisch für „ansehnlich“
+  {9pt}% measure of space to leave above the theorem. E.g.: 3pt
+  {6pt}% measure of space to leave below the theorem. E.g.: 3pt
+  {}% name of font to use in the body of the theorem
+  {}% measure of space to indent
+  {\bfseries}% name of head font
+  {\smallskip}% punctuation between head and body
+  {\newline}% space after theorem head; " " = normal interword space
+  {}% Manually specify head
+
+\theoremstyle{bonny}
+\newtheorem{definition}{Definition}
+\newtheorem{problem}{Problem}
+
+% Beispiele, Sätze, Theoreme, Lemmata werden alle *ohne* Zeilenumbruch gesetzt, z.B.:
+%   Satz 1  Für alle Graphen gilt …
+\newtheoremstyle{sweet}%
+  {9pt}% measure of space to leave above the theorem. E.g.: 3pt
+  {6pt}% measure of space to leave below the theorem. E.g.: 3pt
+  {}% name of font to use in the body of the theorem
+  {}% measure of space to indent
+  {\bfseries}% name of head font
+  {}% punctuation between head and body
+  {1em}% space after theorem head; " " = normal interword space
+  {}% Manually specify head
+
+\theoremstyle{sweet}
+\newtheorem{beispiel}{Beispiel}
+\newtheorem{satz}{Satz}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{folgerung}{Folgerung}
+
+%% coole Kopf- und Fußzeilen:
+%\usepackage{fancyhdr}
+%% Seitenstil ist natürlich fancy:
+%\pagestyle{fancy}
+%% alle Felder löschen:
+%\fancyhf{}
+%% Veranstaltung:
+%%\fancyhead[L]{}
+%% Seriennummer:
+%%\fancyhead[C]{}
+%% Name und Matrikelnummer:
+%%\fancyhead[R]{}
+%%\fancyfoot[L]{}
+%\fancyfoot[C]{\thepage}
+%%\fancyfoot[C]{\thepage\,/\,\pageref{LastPage}}
+%% Linie oben/unten:
+%\renewcommand{\headrulewidth}{0.0pt}
+%\renewcommand{\footrulewidth}{0.0pt}
+
+% besondere Zeichen:
+%\usepackage{pifont}
+%\newcommand{\cmark}{\ding{51}}%
+%\newcommand{\xmark}{\ding{55}}%
+%\newcommand{\richtig}{\textcolor{ForestGreen}{\cmark}}
+%\newcommand{\falsch}{\textcolor{BrickRed}{\xmark}}
+
+\newcommand{\BigO}{\mathcal{O}}
+
+% für eigene Notizen:
+\newenvironment{notiz}{
+  \color{Maroon}
+  \paragraph*{Notiz}
+}{
+  \color{black}
+}

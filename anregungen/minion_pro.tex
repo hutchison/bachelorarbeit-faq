@@ -1,0 +1,41 @@
+\documentclass[a4paper, 11pt]{scrartcl}
+
+\input{pakete}
+
+% für die Konfiguration der Schriftarten siehe 'pakete.tex' im Bereich:
+% \ifxetex{}
+%    ...
+% \endif
+%
+% Hier die relevanten Einstellungen:
+%  % Um auch schöne Schriftarten auswählen zu können:
+%  \usepackage[MnSymbol]{mathspec}
+%
+%  % Wir wollen, dass alle unsere Schriften für einander angepasst sind:
+%  \defaultfontfeatures{
+%    Ligatures=TeX,
+%    Scale=MatchLowercase,
+%  }
+%  % Die Hauptschriftart:
+%  \setmainfont[]{Minion Pro}
+%  % Die Matheschriftart:
+%  \setmathfont(Digits,Latin,Greek)[
+%    Numbers={Lining, Proportional}
+%  ]{Minion Pro}
+%  \setmathrm{Minion Pro}
+%  % Die Schriftart für serifenlose Texte (z.B. Überschriften):
+%  %\setallsansfonts[
+%  %  BoldFont = {MyriadPro-Regular},
+%  %]{Myriad Pro}
+%  \setallsansfonts[
+%    BoldFont = {Gill Sans},
+%  ]{Gill Sans}
+%  % Und die Schriftart für nichtproportionale Texte:
+%  \setallmonofonts[]{Fira Mono}
+%  \newfontface\titlepagefont{Gill Sans}
+
+\begin{document}
+
+\input{inhalt}
+
+\end{document}
