@@ -6,8 +6,8 @@ Welche Themen und Fächer haben dir in deinem Informatikstudium besser gefallen 
 
 Wenn du diese Fragen für dich beantwortet hast, dann suche dir einen Betreuer und besprecht gemeinsam mögliche Themen. Oft verläuft die erste Unterhaltung so:
 
-> Du: Hallo, ich würde gerne bei Ihnen meine Bachelorarbeit schreiben. Was haben Sie für Themen im Angebot?
-> Prof: Kommt ganz darauf an, worüber du schreiben möchtest! Was interessiert dich denn?
+> Du: Hallo, ich würde gerne bei Ihnen meine Bachelorarbeit schreiben. Was haben Sie für Themen im Angebot?  
+> Prof: Kommt ganz darauf an, worüber du schreiben möchtest! Was interessiert dich denn?  
 > Du: Öh, gute Frage …
 
 Unsere Profs sind meist sehr entgegenkommend, also nutzt das. Je mehr dich das Thema interessiert, desto besser hälst du die 20 Wochen durch.
@@ -43,3 +43,8 @@ Daher sprecht das mit euren Betreuern ab, ob sie auf diese Vorlage bestehen. Mei
 * Wer mal was richtig edles ausprobieren möchte, der schaue sich [Tufte-LaTeX](https://tufte-latex.github.io/tufte-latex/) bzw. eine [aktuelle Version](https://github.com/cbettinger/tufte-lovecraft-latex) an (siehe auch [den Wikipedia-Eintrag zu Edward Tufte](https://de.wikipedia.org/wiki/Edward_Tufte)).  
   Quelltext: `anregungen/tufte.tex`  
   ![Tufte mit Palatino](bilder/tufte.png)
+
+### Sonstige Tipps?
+* Nutze ein Programm zur Literaturverwaltung. [Zotero](https://www.zotero.org) ist ziemlich nice.
+* Fang ruhig in der Mitte an beim Schreiben, wenn du nicht weißt wie du anfangen sollst. Früh anfangen und oft redigieren.
+* Nimm dir einen Tag für das Deckblatt, die eidesstattliche Erklärung und das ganze Gebimmel. Am besten einen Tag, an dem du keine Lust auf inhaltliche Arbeit hast. Dann ist das erledigt und du musst es nicht kurz vor der Abgabe machen. Das dauert nämlich immer länger als dir lieb ist.
