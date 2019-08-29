@@ -1,0 +1,94 @@
+\documentclass[
+  a4paper,
+  justified,
+]{tufte-handout}
+
+\usepackage{microtype}
+\usepackage{amsmath, amssymb}
+\usepackage[ngerman]{babel}
+\usepackage{blindtext}
+
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\floatname{algorithm}{Algorithmus}
+\renewcommand{\algorithmicrequire}{\textbf{Eingabe:}}
+\renewcommand{\algorithmicensure}{\textbf{Ausgabe:}}
+
+\usepackage{tikz}
+
+\begin{document}
+
+\section{Einleitung}%
+\label{sec:einleitung}
+
+\begin{marginfigure}[10ex]
+  \centering
+  \begin{tikzpicture}
+    \coordinate (z)  at (0,0);
+    \coordinate (1)  at ( 90:1);
+    \coordinate (2)  at (162:1);
+    \coordinate (3)  at (234:1);
+    \coordinate (4)  at (306:1);
+    \coordinate (5)  at ( 18:1);
+    \coordinate (6)  at ( 90:1.5);
+    \coordinate (7)  at (162:1.5);
+    \coordinate (8)  at (234:1.5);
+    \coordinate (9)  at (306:1.5);
+    \coordinate (10) at ( 18:1.5);
+
+    \foreach \i in {1,...,10} {
+      \fill (\i) circle (1.5pt);
+    }
+
+    \draw (6) -- (7) -- (8) -- (9) -- (10) -- (6);
+    \draw (1) -- (6);
+    \draw (2) -- (7);
+    \draw (3) -- (8);
+    \draw (4) -- (9);
+    \draw (5) -- (10);
+    \draw (1) -- (3) -- (5) -- (2) -- (4) -- (1);
+  \end{tikzpicture}
+  \caption{Der Petersen-Graph}
+\end{marginfigure}
+
+\blindtext
+
+\section{Mathematik}%
+\label{sec:mathematik}
+
+Ein bisschen Mathematik im Text ist z.\,B. $x^2 + y^2 = z^2$.
+Es geht aber auch anders:
+\begin{align*}
+  {(x+y)}^n & = \sum\limits_{k=0}^{n} \binom{n}{k} x^k y^{n-k}
+  & \int\limits_{-\infty}^{+\infty} e^{-x^2} dx & = \sqrt{\pi}
+\end{align*}
+
+\section{Pseudocode}%
+\label{sec:pseudocode}
+
+\begin{algorithm}
+  \caption{Berechne $y = x^n$}
+  \begin{algorithmic}
+    \REQUIRE $n \geq 0 \vee x \neq 0$
+    \ENSURE $y = x^n$
+    \STATE $y \leftarrow 1$
+    \IF{$n < 0$}
+    \STATE $X \leftarrow 1 / x$
+    \STATE $N \leftarrow -n$
+    \ELSE
+    \STATE $X \leftarrow x$
+    \STATE $N \leftarrow n$
+    \ENDIF
+    \WHILE{$N \neq 0$}
+    \IF{$N$ ist gerade}
+    \STATE $X \leftarrow X \times X$
+    \STATE $N \leftarrow N / 2$
+    \ELSE[$N$ ist ungerade]
+    \STATE $y \leftarrow y \times X$
+    \STATE $N \leftarrow N - 1$
+    \ENDIF
+    \ENDWHILE
+  \end{algorithmic}
+\end{algorithm}
+
+\end{document}

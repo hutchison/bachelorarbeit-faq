@@ -1,6 +1,8 @@
 Template_Arbeiten_TeX_V1.2/
 
 *.aux
+*.bbl
+*.blg
 *.fdb_latexmk
 *.fls
 *.log
