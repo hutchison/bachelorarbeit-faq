@@ -1,6 +1,6 @@
 # FAQ zur Bachelorarbeit
 
-### Also ich soll jetzt eine Bachelorarbeit schreiben … wie fang ich damit an?
+### Ich soll jetzt eine Bachelorarbeit schreiben … wie fang ich damit an?
 
 Welche Themen und Fächer haben dir in deinem Informatikstudium besser gefallen als andere? Welche Themen liegen dir? Welche Profs sind dir symphatisch und welche nicht? Von welchen Profs kannst was lernen?
 
@@ -10,7 +10,7 @@ Wenn du diese Fragen für dich beantwortet hast, dann suche dir einen Betreuer u
 > Prof: Kommt ganz darauf an, worüber du schreiben möchtest! Was interessiert dich denn?  
 > Du: Öh, gute Frage …
 
-Unsere Profs sind meist sehr entgegenkommend, also nutzt das. Je mehr dich das Thema interessiert, desto besser hälst du die 20 Wochen durch.
+Unsere Profs sind meist sehr entgegenkommend, also nutze das. Je mehr dich das Thema interessiert, desto besser hälst du die 20 Wochen durch.
 
 Wenn ihr ein Thema ausgemacht habt, dann müsst ihr eine Themenbeschreibung formulieren. Diese enthält
 * den Titel der Arbeit,
@@ -27,7 +27,7 @@ Diese Themenbeschreibung müsst ihr zusammen mit dem Formular [„Anmeldung Bach
 Es gibt eine [offizielle Vorlage](https://www.uni-rostock.de/universitaet/uni-gestern-und-heute/corporate-design/vorlagen/vorlagen-fuer-wiss-arbeiten/) für wissenschaftliche Arbeiten im Corporate Design. Über die Schönheit lässt sich streiten:  
 ![Titelseite der LaTeX-Vorlage der Uni](bilder/Vorlage_Titelseite.png)
 
-Daher sprecht das mit euren Betreuern ab, ob sie auf diese Vorlage bestehen. Meistens tun sie das nicht und solange das Design beim Lesen nicht stört, habt ihr gewissen Freiheiten. Vielleicht ist das genau der richtige Moment, um für sich selbst herauszufinden, was man schön findet. Hier ein paar Anregungen:
+Daher sprich das mit deinem Betreuer ab, ob er/sie auf diese Vorlage besteht. Meistens ist das nicht der Fall und solange das Design beim Lesen nicht stört, habt ihr gewissen Freiheiten. Vielleicht ist das genau der richtige Moment, um für sich selbst herauszufinden, was man schön findet. Hier ein paar Anregungen:
 
 * Schriftart für Text: Palatino  
   Schriftart für Mathematik: Euler  
