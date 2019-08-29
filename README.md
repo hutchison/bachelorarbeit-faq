@@ -12,14 +12,11 @@ Daher sprecht das mit euren Betreuern ab, ob sie auf diese Vorlage bestehen. Mei
   Quelltext: `anregungen/palatino_euler.tex`  
   Ohne Probleme nutzbar.  
   ![Palatino und Euler](bilder/palatino_euler.png)
-
 * Schriftart für Text: Minion Pro  
   Schriftart für Überschriften: Gill Sans  
   Schriftart für Mathematik: MnSymbol  
-  Quelltext: `anregungen/minion_pro.tex`
-  
+  Quelltext: `anregungen/minion_pro.tex`  
   Mittels [XeLaTeX](https://de.wikipedia.org/wiki/XeTeX) kann man die Schriftarten des Betriebssystems nutzen. Das ist besonders auf einem Mac interessant, weil dort viele hochqualitative Schriftarten vorhanden sind (z.B. die richtige Helvetica). Für diese Anregung muss man sich selbst auf die Suche nach der Minion Pro machen.  
   ![Minion Pro und Gill Sans](bilder/minion_pro.png)
-
 * Wer mal was richtig edles ausprobieren möchte, der schaue sich [Tufte-LaTeX](https://tufte-latex.github.io/tufte-latex/) bzw. eine [aktuelle Version](https://github.com/cbettinger/tufte-lovecraft-latex) an (siehe auch [den Wikipedia-Eintrag zu Edward Tufte](https://de.wikipedia.org/wiki/Edward_Tufte)).  
   ![Tufte mit Palatino](bilder/tufte.png)
