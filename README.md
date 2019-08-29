@@ -1,5 +1,27 @@
 # FAQ zur Bachelorarbeit
 
+### Also ich soll jetzt eine Bachelorarbeit schreiben … wie fang ich damit an?
+
+Welche Themen und Fächer haben dir in deinem Informatikstudium besser gefallen als andere? Welche Themen liegen dir? Welche Profs sind dir symphatisch und welche nicht? Von welchen Profs kannst was lernen?
+
+Wenn du diese Fragen für dich beantwortet hast, dann suche dir einen Betreuer und besprecht gemeinsam mögliche Themen. Oft verläuft die erste Unterhaltung so:
+
+> Du: Hallo, ich würde gerne bei Ihnen meine Bachelorarbeit schreiben. Was haben Sie für Themen im Angebot?
+> Prof: Kommt ganz darauf an, worüber du schreiben möchtest! Was interessiert dich denn?
+> Du: Öh, gute Frage …
+
+Unsere Profs sind meist sehr entgegenkommend, also nutzt das. Je mehr dich das Thema interessiert, desto besser hälst du die 20 Wochen durch.
+
+Wenn ihr ein Thema ausgemacht habt, dann müsst ihr eine Themenbeschreibung formulieren. Diese enthält
+* den Titel der Arbeit,
+* eine kurze einleitende Beschreibung des Themas,
+* ein paar Ansätze, die verfolgt werden sollen, und
+* zu nutzende Literatur.
+
+Hier ein Beispiel:
+![Beispiel einer Themenbeschreibung](bilder/themenbeschreibung.png)
+Diese Themenbeschreibung müsst ihr zusammen mit dem Formular [„Anmeldung Bachelorarbeit“](https://www.ief.uni-rostock.de/index.php?id=formulare) im Studienbüro einreichen, worauf sie vom Prüfungsausschuss abgesegnet wird. Ab dann geht’s los mit der Arbeit.
+
 ### Gibt’s irgendwo eine Vorlage, die ich nutzen kann/muss?
 
 Es gibt eine [offizielle Vorlage](https://www.uni-rostock.de/universitaet/uni-gestern-und-heute/corporate-design/vorlagen/vorlagen-fuer-wiss-arbeiten/) für wissenschaftliche Arbeiten im Corporate Design. Über die Schönheit lässt sich streiten:  
