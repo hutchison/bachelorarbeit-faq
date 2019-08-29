@@ -18,7 +18,7 @@ Wenn ihr ein Thema ausgemacht habt, dann müsst ihr eine Themenbeschreibung form
 * ein paar Ansätze, die verfolgt werden sollen, und
 * zu nutzende Literatur.
 
-Hier ein Beispiel:
+Hier ein Beispiel:  
 ![Beispiel einer Themenbeschreibung](bilder/themenbeschreibung.png)
 Diese Themenbeschreibung müsst ihr zusammen mit dem Formular [„Anmeldung Bachelorarbeit“](https://www.ief.uni-rostock.de/index.php?id=formulare) im Studienbüro einreichen, worauf sie vom Prüfungsausschuss abgesegnet wird. Ab dann geht’s los mit der Arbeit.
 
