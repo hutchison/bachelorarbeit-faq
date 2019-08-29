@@ -19,4 +19,5 @@ Daher sprecht das mit euren Betreuern ab, ob sie auf diese Vorlage bestehen. Mei
   Mittels [XeLaTeX](https://de.wikipedia.org/wiki/XeTeX) kann man die Schriftarten des Betriebssystems nutzen. Das ist besonders auf einem Mac interessant, weil dort viele hochqualitative Schriftarten vorhanden sind (z.B. die richtige Helvetica). Für diese Anregung muss man sich selbst auf die Suche nach der Minion Pro machen.  
   ![Minion Pro und Gill Sans](bilder/minion_pro.png)
 * Wer mal was richtig edles ausprobieren möchte, der schaue sich [Tufte-LaTeX](https://tufte-latex.github.io/tufte-latex/) bzw. eine [aktuelle Version](https://github.com/cbettinger/tufte-lovecraft-latex) an (siehe auch [den Wikipedia-Eintrag zu Edward Tufte](https://de.wikipedia.org/wiki/Edward_Tufte)).  
+  Quelltext: `anregungen/tufte.tex`  
   ![Tufte mit Palatino](bilder/tufte.png)
