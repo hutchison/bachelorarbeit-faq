@@ -2,7 +2,7 @@
 
 ### Ich soll jetzt eine Bachelorarbeit schreiben … wie fang ich damit an?
 
-Welche Themen und Fächer haben dir in deinem Informatikstudium besser gefallen als andere? Welche Themen liegen dir? Welche Profs sind dir symphatisch und welche nicht? Von welchen Profs kannst was lernen?
+Welche Themen und Fächer haben dir in deinem Informatikstudium besser gefallen als andere? Welche Themen liegen dir? Welche Profs sind dir symphatisch und welche nicht? Von welchen Profs kannst du was lernen?
 
 Wenn du diese Fragen für dich beantwortet hast, dann suche dir einen Betreuer und besprecht gemeinsam mögliche Themen. Oft verläuft die erste Unterhaltung so:
 
